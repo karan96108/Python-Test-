@@ -1,0 +1,31 @@
+
+'''import numpy as np
+
+# Create an array
+arr = np.array([1, 2, 3])
+
+# Element-wise exponentiation
+result = np.exp(arr)
+
+print(result)
+'''
+'''import numpy as np
+
+# Create an array
+arr = np.array([1, 10, 100])
+
+# Element-wise logarithm
+result = np.log(arr)
+
+print(result)'''
+'''
+import numpy as np
+
+# Create an array
+arr = np.array([4, 9, 16])
+
+# Element-wise square root
+result = np.sqrt(arr)
+
+print(result)
+'''

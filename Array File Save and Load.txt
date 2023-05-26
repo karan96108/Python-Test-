@@ -1,0 +1,49 @@
+'''import numpy as np
+
+# Create an array
+arr = np.array([1, 2, 3, 4, 5])
+
+# Save the array to a file
+np.save('array.npy', arr)'''
+
+
+
+'''
+FOR LOADING FILES OF SAVED FILES
+import numpy as np
+
+# Load the array from the file
+loaded_arr = np.load('array.npy')
+
+print(loaded_arr)
+'''
+'''
+FOR SAVING MUTIPLE ARRAY FILES
+import numpy as np
+
+# Create arrays
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4, 5, 6])
+
+# Save multiple arrays to a file
+np.savez('arrays.npz', array1=arr1, array2=arr2)
+'''
+
+
+'''
+FOR LOADING MULTIPLE FILES
+
+import numpy as np
+
+# Load multiple arrays from the file
+loaded_data = np.load('arrays.npz')
+
+# Access the loaded arrays
+loaded_arr1 = loaded_data['array1']
+loaded_arr2 = loaded_data['array2']
+
+print(loaded_arr1)
+print(loaded_arr2)
+
+
+'''

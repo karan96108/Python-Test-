@@ -1,0 +1,35 @@
+# Calculate the mean
+'''import numpy as np
+
+# Create an array
+arr = np.array([1, 2, 3, 4, 5])
+
+
+mean = np.mean(arr)
+
+print(mean)
+'''
+# Calculate the median
+
+'''
+import numpy as np
+
+# Create an array
+arr = np.array([1, 3, 2, 5, 4])
+
+median = np.median(arr)
+
+print(median)
+'''
+# Calculate the standard deviation
+'''
+import numpy as np
+
+# Create an array
+arr = np.array([1, 2, 3, 4, 5])
+
+
+std = np.std(arr)
+
+print(std)
+'''

@@ -1,0 +1,113 @@
+"""
+numeric stands for numeric python it is the fundamental package in scitific computing in python. it is python library that provides  a muti dimenwsionl array oject(n-darray) 
+varoiuos derive object such as masked array and matrices and sortnment of routine for fast operation on array it incluide mathematical logical sghape manipulation sorting selecting input output disctreate 
+fourier transformation basic linear algebra with statics basic operation and many more 
+
+at the core numpy package it is ndarray object this encapsulate n- dimensional array of homogenous datatype with  many operation in compiled code of performance
+
+
+data type object that describe layout of single fixed elements of the array
+array scaler pyhton obj when the single element of array accesed
+
+
+
+
+import numpy as np
+
+arr = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[7,6,5]]])
+
+print(arr[0,-1,-2])
+"""
+'''
+import numpy as np
+
+a = np.array([[0,1,2,3],[7,9,5,3]],ndmin=5)
+print(a.shape)
+
+#print(a[0:2,1:4])
+'''
+'''
+import numpy as np 
+
+a = np.array([1.1,2.2,3.4,0])
+
+new_a= a.astype(bool)
+print(new_a)
+
+print(new_a.dtype)'''
+'''
+import numpy as np
+
+a = np.array([1,2,3,4,5])
+
+x = a.copy()
+y = a.view()
+print(x.base)
+print(y.base)'''
+'''
+import numpy as np
+
+
+a = np.array([1,2,3,4,5,6,7,8])
+
+#nw_a = a.reshape(3,2,3) #first arg defines in how amy pieces it will break 2nd arg defines rows and 3rd arg defines coloumns
+print(a.reshape(-1))'''
+
+'''
+import numpy as np
+
+a = np.array([[[1,2,3,4],[5,6,7,8]],[[3,4,5,6],[4,7,5,4]]])
+
+for x in np.nditer(a[:,::2]): #nditer is used to print the iterated value
+    print(x)
+'''    
+'''
+import numpy as np
+
+a = np.array([[[1,2,3,4],[5,6,7,8]],[[3,4,5,6],[4,7,5,4]]])
+
+for idx,x in np.ndenumerate(a):
+    print(x)
+  '''
+
+'''
+import numpy as np
+
+a = np.array([[1,2,3,4],[4,5,7,3]])
+b = np.array([[5,6,7,8],[5,7,3,1]])
+
+arr = np.concatenate((a,b),axis=1)
+
+
+print(arr)
+'''
+'''
+import numpy as np
+
+arr1 = np.array([1, 2, 3])
+
+arr2 = np.array([4, 5, 6])
+
+arr = np.vstack((arr1, arr2))
+
+print(arr)'''
+'''
+import numpy as np
+
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15], [16, 17, 18]])
+
+newarr = np.array_split(arr, 3)
+
+print(newarr)
+'''
+'''
+import numpy as np
+ 
+# Defining both the matrices
+a = np.array([5, 72, 13, 100])
+b = np.array([2, 5, 10, 30])
+ 
+# Performing multiplication using arithmetic operator
+mul_ans = a*b
+print(mul_ans)
+'''

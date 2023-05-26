@@ -1,0 +1,13 @@
+
+import numpy as np
+
+# Create an array
+a = np.array([1, 2, 3, 4, 5])
+
+# Create a mask based on a condition
+mask = a > 2
+
+# Apply the mask to the array
+masked_array = a[mask]
+
+print(masked_array)
